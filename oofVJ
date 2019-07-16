@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export PATH=/usr/local/bin
+/usr/local/bin/youtube-dl "$1" -o "/Users/lorenrisker/Google Drive/transfer/audio/%(title)s.%(ext)s" --extract-audio --audio-format mp3
